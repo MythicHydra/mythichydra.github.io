@@ -1,0 +1,59 @@
+body {
+    background: #23242a;
+}
+.photo1 {
+    position: absolute;
+    width: 400px;
+    height: 250px;
+    margin-left: 500px;
+}
+.photo2 {
+    position: absolute;
+    width: 400px;
+    height: 250px;
+    margin-left: 900px;
+    margin-bottom: -400px;
+}
+.photo3 {
+    position: absolute;
+    width: 400px;
+    height: 250px;
+    margin-left: 900px;
+    margin-top: 250px;
+}
+.photo4 {
+    position: absolute;
+    width: 400px;
+    height: 250px;
+    margin-left: 500px;
+    margin-top: 250px;
+}
+.photo5 {
+    position: absolute;
+    width: 400px;
+    height: 250px;
+    margin-left: 900px;
+    margin-top: 500px;
+}
+.photo6 {
+    position: absolute;
+    width: 400px;
+    height: 250px;
+    margin-left: 500px;
+    margin-top: 500px;
+}
+.photo7 {
+    position: absolute;
+    width: 400px;
+    height: 250px;
+    margin-left: 500px;
+    margin-top: 750px;
+}
+.photo8 {
+    position: absolute;
+    width: 400px;
+    height: 250px;
+    margin-left: 900px;
+    margin-top: 750px;
+}
+

@@ -1,0 +1,142 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="contact.css">
+        <link rel="stylesheet" href="navigation.css">
+        <link rel="stylesheet" href="gallery.css"
+    </head>
+    <body>
+        <div class="menu">
+            <div class="socialmedia">
+                <ul>
+                    <li>
+                        <a href="https://instagram.com/profil/undefined">
+                            <span class="icon">
+                                <ion-icon name="logo-instagram"></ion-icon>
+                            </span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="https://facebook.com/profil/undefined">
+                            <span class="icon">
+                                <ion-icon name="logo-facebook"></ion-icon>
+                            </span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="https://twitter.com/profil/undefined">
+                            <span class="icon">
+                                <ion-icon name="logo-twitter"></ion-icon>
+                            </span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="navigation">
+                <ul>
+                    <li class="list">
+                        <a href="index.html">
+                            <span class="icon">
+                                <ion-icon name="home-outline"></ion-icon>
+                            </span>
+
+                            <span class="text">Strona główna</span>
+                        </a>
+                    </li>
+                    <li class="list">
+                        <a href="services.html">
+                            <span class="icon">
+                                <ion-icon name="brush-outline"></ion-icon>
+                            </span>
+
+                            <span class="text">Usługi</span>
+                        </a>
+                    </li>
+
+                    <li class="list">
+                        <a href="login.html">
+                            <span class="icon">
+                                <ion-icon name="person-circle-outline"></ion-icon>
+                            </span>
+
+                            <span class="text">Konto</span>
+                        </a>
+                    </li>
+
+                    <li class="list active">
+                        <a href="gallery.html">
+                            <span class="icon">
+                                <ion-icon name="images-outline"></ion-icon>
+                            </span>
+
+                            <span class="text">Galeria</span>
+                        </a>
+                    </li>
+
+                    <li class="list">
+                        <a href="cv.html">
+                            <span class="icon">
+                                <ion-icon name="wallet-outline"></ion-icon>
+                            </span>
+
+                            <span class="text">CV</span>
+                        </a>
+                    </li>
+                    <div class="indicator"></div>
+                </ul>
+            </div>
+        </div>
+
+        <script>
+            const list = document.querySelectorAll('.list');
+            function activeLink(){
+                list.forEach((item) =>item.classList.remove('active'));
+                this.classList.add('active');
+            }
+            list.forEach((item) =>item.addEventListener('click',activeLink));
+        </script>
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+        <div class="main">
+
+        </div>
+        <div id="galery">
+            <div id="photo1">
+                <div id="pakiet1"> 
+        
+            <img class="photo1" src="galph1.jpg">
+         
+        </div>
+        <div id="pakiet2"> 
+         
+            <img class="photo2" src="galph2.jpg">
+          
+        </div>
+        <div id="pakiet3"> 
+         
+            <img class="photo3" src="galph3.jpg">
+          
+        </div>
+        <div id="pakiet4"> 
+          
+            <img class="photo4" src="galph4.jpg">
+         
+        </div>
+        <div id="pakiet5"> 
+            <img class="photo5" src="galph5.jpg">
+       </div>
+       <div id="pakiet6"> 
+        <img class="photo6" src="galph6.jpg">
+   </div>
+   <div id="pakiet7"> 
+    <img class="photo7" src="galph7.jpg">
+</div>
+<div id="pakiet8"> 
+    <img class="photo8" src="galph8.jpg">
+</div>
+</div>
+
+
+</html>

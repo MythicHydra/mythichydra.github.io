@@ -1,0 +1,132 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="services.css">
+        <link rel="stylesheet" href="navigation.css">
+    </head>
+    <body>
+       <div class="menu">
+            <div class="socialmedia">
+                <ul>
+                    <li>
+                        <a href="https://instagram.com/profil/undefined">
+                            <span class="icon">
+                                <ion-icon name="logo-instagram"></ion-icon>
+                            </span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="https://facebook.com/profil/undefined">
+                            <span class="icon">
+                                <ion-icon name="logo-facebook"></ion-icon>
+                            </span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="https://twitter.com/profil/undefined">
+                            <span class="icon">
+                                <ion-icon name="logo-twitter"></ion-icon>
+                            </span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="navigation">
+                <ul>
+                    <li class="list">
+                        <a href="index.html">
+                            <span class="icon">
+                                <ion-icon name="home-outline"></ion-icon>
+                            </span>
+
+                            <span class="text">Strona glowna</span>
+                        </a>
+                    </li>
+                    <li class="list active">
+                        <a href="services.html">
+                            <span class="icon">
+                                <ion-icon name="brush-outline"></ion-icon>
+                            </span>
+
+                            <span class="text">Uslugi</span>
+                        </a>
+                    </li>
+
+                    <li class="list">
+                        <a href="login.html">
+                            <span class="icon">
+                                <ion-icon name="person-circle-outline"></ion-icon>
+                            </span>
+
+                            <span class="text">Konto</span>
+                        </a>
+                    </li>
+
+                    <li class="list">
+                        <a href="gallery.html">
+                            <span class="icon">
+                                <ion-icon name="images-outline"></ion-icon>
+                            </span>
+
+                            <span class="text">Galeria</span>
+                        </a>
+                    </li>
+
+                    <li class="list">
+                        <a href="cv.html">
+                            <span class="icon">
+                                <ion-icon name="wallet-outline"></ion-icon>
+                            </span>
+
+                            <span class="text">CV</span>
+                        </a>
+                    </li>
+                    <div class="indicator"></div>
+                </ul>
+            </div>
+        </div>
+
+        <script>
+            const list = document.querySelectorAll('.list');
+            function activeLink(){
+                list.forEach((item) =>item.classList.remove('active'));
+                this.classList.add('active');
+            }
+            list.forEach((item) =>item.addEventListener('click',activeLink));
+        </script>
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+        <div class="main">
+
+        </div>
+        <div id="pakiet1"> 
+            <p class="packetheader">Pakiet dzieciecy</p>
+            <img class="photos1" src="urodzinydladzieci.jpg">
+            <p class="text">Pakiet dzieciecy, stworz wymazona impreze <br>dla swojej pociechy ty wybierasz temat my <br>realizujemy cala reszte abys ty nie musial sie <br>o nic martwic gwarantuje ze pociecha <br>bedzie zadowolona. 
+                <br>Cena moze sie wachac wzaleznosci od tematu</p>
+        </div>
+        <div id="pakiet2"> 
+            <p class="packetheader">Pakiet mlodziezowy</p>
+            <img class="photos1" src="youngparty.jpg">
+            <p class="text">Idealna ipreza dla zarowno wczesnej mlodziezy <br>jak i tych po 18stce impreza z muzyka wlasnego <br> wyboru przekaskami i napojami. <br>(napoje alkocholowe dostepne w pakiecie 18+)</p>
+        </div>
+        <div id="pakiet3"> 
+            <p class="packetheader">Pakiet weselny</p>
+            <img class="photos1" src="weselny.png">
+            <p class="text">Impreza weselna z potancowka obiadem i <br>mnostwem atrakcji ktore tylko panstwo mlodzi <br>sobie zapragnal w ten piekny dzien. <br>(wszystko do umowienia z agentem)</p>
+        </div>
+        <div id="pakiet4"> 
+            <p class="packetheader">Impreza "custom"</p>
+            <img class="photos1" src="custom.jpg">
+            <p class="text">Mozesz stworzyc swoja wymarzona impreze na <br>jakakolwiek okazje chce pomozemy ci <br>zorganizowac doslownie wszystko. <br>(koszt moze byc bardzo wysoki z racji iz mozliwe <br>ze bedziemy musieli zatrudnic kogos z zewnatrz.)</p>
+        </div>
+        <div id="pakiet5"> 
+            <p class="packetheader">Imieniny</p>
+            <img class="photos1" src="imieniny.jpg">
+            <p class="text">Tradycyjne "rodzinne" imieniny dla osob <br>ktore nie obchodza urodzin.</p>
+        </div>
+    </body>
+
+</html>

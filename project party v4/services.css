@@ -1,0 +1,84 @@
+body {
+    background: #23242a;
+}
+#pakiet1 { 
+    width: 800px;
+    height: 300px;
+    position: absolute;
+    background: rgb(51, 48, 48);
+    margin-left: 550px;
+    border-radius: 2%;
+    border: 2px solid #bbdaf3;
+    color: aliceblue;
+    font-size: larger;
+}
+#pakiet2 { 
+    width: 800px;
+    height: 300px;
+    margin-top: 400px;
+    position: absolute;
+    background: rgb(51, 48, 48);
+    margin-left: 550px;
+    border-radius: 2%;
+    border: 2px solid #bbdaf3;
+    color: aliceblue;
+    font-size: larger;
+}
+#pakiet3 { 
+    width: 800px;
+    height: 300px;
+    margin-top: 800px;
+    position: absolute;
+    background: rgb(51, 48, 48);
+    margin-left: 550px;
+    border-radius: 2%;
+    border: 2px solid #bbdaf3;
+    color: aliceblue;
+    font-size: larger;
+}
+#pakiet4 { 
+    width: 800px;
+    height: 300px;
+    margin-top: 1200px;
+    position: absolute;
+    background: rgb(51, 48, 48);
+    margin-left: 550px;
+    border-radius: 2%;
+    border: 2px solid #bbdaf3;
+    color: aliceblue;
+    font-size: larger;
+    
+}
+#pakiet5 { 
+    width: 800px;
+    height: 300px;
+    margin-top: 1600px;
+    position: absolute;
+    background: rgb(51, 48, 48);
+    margin-left: 550px;
+    border-radius: 2%;
+    border: 2px solid #bbdaf3;
+    color: aliceblue;
+    font-size: larger;
+}
+.text {
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 30px;
+    font-size: 14;
+}
+.photos1 {
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 380px;
+    width: 400px;
+    height: 266.5px;
+}
+.packetheader {
+    position: absolute;
+    font-size: 25;
+    margin-left: 80px;
+}
+#cos {
+    font-size: 10;
+}
